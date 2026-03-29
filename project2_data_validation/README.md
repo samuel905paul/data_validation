@@ -1,30 +1,30 @@
-# 🛡️ Enterprise Data Validation Framework
+# Enterprise Data Validation Framework
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![SQL](https://img.shields.io/badge/SQL-Server-orange.svg)
 ![Accuracy](https://img.shields.io/badge/Accuracy-99.5%25-green.svg)
 ![Savings](https://img.shields.io/badge/Annual_Savings-$450K-success.svg)
 
-## 💰 Business Impact
+## Business Impact
 
 - **$450K** annual savings from eliminated reconciliation discrepancies
 - **99.5%** data accuracy across 20+ financial data sources
 - **40%** reduction in manual QA effort
 - **SOX compliance** achieved through automated validation
 
-## 📋 Project Overview
+## Project Overview
 
 Production-grade data validation framework that ensures data quality and integrity across enterprise financial systems. Built with Python and SQL Server, featuring 50+ validation scripts, anomaly detection, and automated reporting.
 
 ### Key Features
 
-✅ **Comprehensive Validation**: 50+ rules covering completeness, accuracy, consistency  
-✅ **Anomaly Detection**: Statistical outlier identification using Pandas  
-✅ **Automated Reconciliation**: Cross-system data matching and variance detection  
-✅ **Real-time Monitoring**: Dashboard tracking validation metrics  
-✅ **Audit Trail**: Complete logging for SOX compliance
+**Comprehensive Validation**: 50+ rules covering completeness, accuracy, consistency  
+**Anomaly Detection**: Statistical outlier identification using Pandas  
+**Automated Reconciliation**: Cross-system data matching and variance detection  
+**Real-time Monitoring**: Dashboard tracking validation metrics  
+**Audit Trail**: Complete logging for SOX compliance
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐      ┌──────────────────┐      ┌─────────────────┐
@@ -39,7 +39,7 @@ Production-grade data validation framework that ensures data quality and integri
                          └──────────────────┘
 ```
 
-## 🔍 Validation Categories
+## Validation Categories
 
 ### 1. **Data Completeness Checks**
 - Null value detection
@@ -109,7 +109,7 @@ python main.py --source invoices --mode all
 python main.py --mode all --report
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 data-validation-framework/
@@ -155,7 +155,7 @@ data-validation-framework/
 └── README.md
 ```
 
-## 📊 Validation Rules Examples
+## Validation Rules Examples
 
 ### Completeness Validation
 
@@ -211,7 +211,7 @@ anomaly_rules = {
 }
 ```
 
-## 📈 Validation Results Dashboard
+## Validation Results Dashboard
 
 ### Daily Validation Summary
 
@@ -231,7 +231,7 @@ Consistency Errors:     28%
 Anomaly Flags:          26%
 ```
 
-## 🔧 Key Technical Features
+## Key Technical Features
 
 ### 1. SQL Validation Queries
 
@@ -292,7 +292,7 @@ def generate_validation_report(results):
     return report
 ```
 
-## 💡 Business Value Delivered
+## Business Value Delivered
 
 ### Before Implementation
 - **Manual reconciliation**: 80+ hours/month
@@ -306,7 +306,7 @@ def generate_validation_report(results):
 - **Audit findings**: 0 per quarter
 - **Error detection**: Proactive (real-time)
 
-## 📚 Sample Validation Outputs
+## Sample Validation Outputs
 
 ### Email Alert (High Priority)
 
@@ -336,7 +336,7 @@ Action Required: Immediate investigation
 }
 ```
 
-## 🔄 CI/CD Integration
+## CI/CD Integration
 
 ```yaml
 # .github/workflows/validation.yml
@@ -360,7 +360,7 @@ jobs:
           path: reports/
 ```
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 - [ ] Machine learning-based anomaly detection
 - [ ] Real-time streaming validation
@@ -368,7 +368,7 @@ jobs:
 - [ ] Advanced visualization dashboards (Plotly)
 - [ ] API endpoint for validation-as-a-service
 
-## 👤 Author
+## Author
 
 **T Samuel Paul**  
 Data Analyst | Data Quality Specialist
@@ -376,7 +376,7 @@ Data Analyst | Data Quality Specialist
 - LinkedIn: [linkedin.com/in/tsamuelpaul01](https://www.linkedin.com/in/tsamuelpaul01)
 - Email: tsamuelpaul01@gmail.com
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details.
 
