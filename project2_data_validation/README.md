@@ -376,10 +376,6 @@ Data Analyst | Data Quality Specialist
 - LinkedIn: [linkedin.com/in/tsamuelpaul01](https://www.linkedin.com/in/tsamuelpaul01)
 - Email: tsamuelpaul01@gmail.com
 
-## License
-
-MIT License - see LICENSE file for details.
-
----
+--
 
 ⭐ Star this repo if it helped ensure your data quality!
