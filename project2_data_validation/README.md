@@ -65,7 +65,7 @@ Production-grade data validation framework that ensures data quality and integri
 - Trend deviation alerts
 - Pattern recognition
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
